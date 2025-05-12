@@ -23,16 +23,16 @@ The gully plug approach optimizes collection efficiency through:
 > **Water Quality Note**: The system implements a first-flush diverter to prevent contaminated initial runoff from entering storage.
 
 ### Control System Architecture
-   ┌───────────────┐
-   │   Rainwater   │
-   │   Collection  │
-   └───────┬───────┘
-           │
-   ┌───────▼───────┐
-   │    Storage    │
-   │     Tank      │
-   └───────┬───────┘
-           │
+      ┌───────────────┐
+      │   Rainwater   │
+      │   Collection  │
+      └───────┬───────┘
+              │
+      ┌───────▼───────┐
+      │    Storage    │
+      │     Tank      │
+      └───────┬───────┘
+              │
 ┌──────────────▼──────────────┐
 │    PWM DC Motor Controller  │
 │                             │
@@ -41,11 +41,11 @@ The gully plug approach optimizes collection efficiency through:
 │  │  Timer  │───>│ Driver  │ │
 │  └─────────┘    └─────────┘ │
 └──────────────┬──────────────┘
-│
-┌───────▼───────┐
-│  Distribution │
-│    System     │
-└───────────────┘
+               │
+         ┌───────▼───────┐
+         │  Distribution │
+         │    System     │
+         └───────────────┘
 
 ## Video Tutorials and DIY Guides
 For complete build instructions and system optimization strategies, visit:
