@@ -1,6 +1,3 @@
-## 6. Smart-Home-Water-Conservation-System
-
-```markdown
 # Smart Home Water Conservation System
 > Automated water management using sustainable harvesting and intelligent distribution
 
